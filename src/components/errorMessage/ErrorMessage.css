@@ -1,0 +1,39 @@
+.Error{
+    text-align: center;
+}
+.Error-logo {
+    height: 30vmin;
+    margin-bottom: 20px;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Error-logo {
+      animation: Error-logo-spin infinite 5s ;
+    }
+  }
+  
+  .Error-header {
+    background-color: #232222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  @keyframes Error-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .errorMessage{
+      color:rgba(255, 255, 255, 0.42);
+      text-decoration: none;
+  }
